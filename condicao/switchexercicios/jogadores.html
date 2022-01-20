@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Curso de PHP - Curso em Video</title>
+    <style>
+        input[type="submit"]{
+            width: 250px;
+            border-radius: 10px;
+            margin:auto;
+            font-size: 16pt;
+        }
+    </style>
+</head>
+<body>
+    <h1><span class="foco">Jogadores que Participaram no All Star Game desse Ano NBA</span></h1>
+    <hr>
+    <form action="jogadores.php" method="get">
+        Team Lebron:
+        <select name="jog1" id="jog1" >
+            <option selected>Seleciona o Jogador</option>
+            <option value="1">Lebron James</option>
+            <option value="2">Stephen Curry</option>
+            <option value="3">Giannis Antetokompo</option>
+            <option value="4">Luka Doncic</option>
+            <option value="5">Damian Lillard</option>
+            <option value="6">Chris Paul</option>
+            <option value="7">Paul Jorge</option>
+            <option value="8">Jaylen Brown</option>
+            <option value="9">Domantas Sabonis</option>
+            <option value="10">Nikola Jokic</option>
+            <option value="11">Rudy Gobert</option>
+        </select><br><br>
+        Team Durant:
+        <select name="jog2" id="jog2">
+            <option selected>Seleciona o Jogador</option>
+            <option value="1">James Harden</option>
+            <option value="2">Kyrie Irving</option>
+            <option value="3">Jayson Tatum</option>
+            <option value="4">Donavan Mitchell</option>
+            <option value="5">Bradley Beal</option>
+            <option value="6">Kawhi Leonard</option>
+            <option value="7">Nikola Vucevic</option>
+            <option value="8">Julius Randle</option>
+            <option value="9">Mike Concley</option>
+            <option value="10">Zach Lavine</option>
+            <option value="11">Zion Williamson</option>
+        </select><br><br>
+        <input type="submit" class="botao" value="Verificar">
+    </form>
+</body>
+</html>

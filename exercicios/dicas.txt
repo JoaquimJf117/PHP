@@ -1,0 +1,45 @@
+					================= Dicas de PHP =================
+	1- para fazer 10% de aumento de qualquer produto é fazer:
+	1000 = 1000 + (1000*10/100). Nunca esqueça isso!!
+
+	2- usa sempre os operadores de incremento antes da variavel.
+
+					=========== Referência entre Variável ============
+	$a = 3;					$a = 3;
+	$b = $a;				$b = &$a; (quando colocamos um & antes da variavel, estamos definindo uma referência dessa mesma variavel)
+	$b += 5;				$b += 5; ( vai mostrar 8 para as duas variavel)
+
+					============ Variáveis de Variáveis ===============
+	$site = "cursoemvideo"; (Variável comum)
+	$$site = "cursoPHP"; (Variáveis de Variáveis) => Variável Variante.
+	O uso de $ antes da Variavel vão criar oque chamamos de Variável Variante ou Variáveis de Variáveis..
+
+                    =============== Contador (While) ===================
+$c = 1;                                 $c = 10;
+while($c <= 10){                        while($c >= 1){
+   echo $c;                            echo $c;
+   $c++; //vai contar pra frente       $c--; //vai contar pra trás
+}                                       }
+
+Calcular o fatorial é fazendo (5! = 5 x 4 x 3 x 2 x 1) -> do número escolhido até um Multiplicando os valores.
+
+echo "$c = $m";
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../estilo.css">
+	<title>Curso de PHP - Curso em Video</title>
+</head>
+<body>
+   <?php
+		
+   ?>
+</body>
+</html>

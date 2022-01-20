@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./estilo.css">
+    <title>Curso de PHP - Curso em Video</title>
+    <style>
+        input[type="number"]{
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form method="get" action="03contador.php">
+        Inicio: <input type="number" name="n1" max="100" min="0"><br>
+        Final:  <input type="number" name="n2" max="100" min="0"><br>
+        Incremento:
+        <select name="inc" id="incre">
+            <option value="1" name="op1">1</option>
+            <option value="2" name="op2">2</option>
+            <option value="3" name="op3">3</option>
+            <option value="4" name="op4">4</option>
+            <option value="5" name="op5">5</option>
+            <option value="6" name="op6">6</option>
+        </select><br>
+        <input type="submit" class="botao" value="Contar">
+    </form>
+</body>
+</html>

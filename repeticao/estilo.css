@@ -1,0 +1,25 @@
+body{
+    padding: 10px;
+    background-color: darkslategrey;
+    color: white;
+    font: normal lighter 1em "Trebuchet MS";
+}
+.botao{
+    margin: 5px;
+    padding: 5px;
+    background: lightslategrey;
+    color: white;
+    box-shadow: 2px 2px 2px rgba(5, 5, 5, 0.84);
+    font-size: 10pt;
+}
+span.foco{
+    font: bold 18pt "Arial Narrow";
+    color: darkred;
+    text-decoration-color: darkred;
+    text-shadow: 2px 2px 2px black;
+}
+input[type="text"] {
+    padding: 10px;
+    background-color: darkgray;
+    color: white;
+}
